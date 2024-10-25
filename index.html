@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Crazy Diamonds</title>
+    <style>
+        body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
+
+}
+canvas {
+    background-color: #000;
+    border: 2px solid #fff;
+    margin-top: 89px;
+}
+
+        #score {
+            text-align: center;
+            color: wheat;
+            font-size: 42px;
+            margin-top: 10px;
+            bottom: 35px;
+            position: fixed;
+            font-family: cursive;
+        }
+    </style>
+    
+</head>
+<body>
+    <canvas id="gameCanvas" width="600" height="400"></canvas>
+    <div id="score">0</div>
+    <script src="script.js"></script>
+</body>
+</html>
